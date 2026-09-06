@@ -23,7 +23,7 @@ class Solution {
 
             temp.next = x;               // 1 → 4
             x.next = c;                  // 4 → 3
-            c.next = y;                  // 3 → next pair
+            c.next = y;                 
 
             temp = c;
         }
