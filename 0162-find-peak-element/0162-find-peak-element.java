@@ -36,7 +36,7 @@ class Solution {
                 s=m+1; 
             }
             else{
-                e=m-1;
+                e=m-1; 
             }
         }
 
