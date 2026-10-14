@@ -12,7 +12,6 @@ class Solution {
                 return m;
             }
 
-            // EDIT: Check if the left half is sorted
             if (nums[s] <= nums[m]) {
 
                 if (target >= nums[s] && target < nums[m]) {
@@ -22,7 +21,7 @@ class Solution {
                 }
 
             } 
-            // Right half is sorted
+            
             else {
 
                 if (target > nums[m] && target <= nums[e]) {
